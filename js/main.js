@@ -13,7 +13,7 @@ let page = new Vue({
   },
   methods: { // hier kan je functies plaatsen die je vanuit je html kan gebruiken
     startgame: () => {
-
+      log('pressed start button!!')
     }
   },
   created: () => { // dit is een fucntie die wordt uitgevoert wanneer vue klaar is met laden
